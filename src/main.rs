@@ -6,7 +6,7 @@ fn main() {
         .read_line(&mut input)
         .expect("Failed to read line.");
 
-    match input.trim() {
+    match input.trim() { // trimming to remove newline "\n"
         "yes" => {
             println!("yes, you are right. this is rust.");
         }
