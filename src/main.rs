@@ -1,5 +1,5 @@
 fn main() {
-    println!("This is Rust.");
+    println!("is this rust? ");
     let mut input = String::new();
 
     std::io::stdin()
